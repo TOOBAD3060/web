@@ -7,12 +7,8 @@
     margin: 20px;
 }
  .bg-download{
-    height: 100px;
-    background-color: whitesmoke;
-    background-image: url(images/download-bg.png);
-    background-size: cover;
-
-}
+    height: 40px;
+ }
 section.first{
     position: relative;
     margin-bottom: 4em;
@@ -34,6 +30,7 @@ section.second{
     background-image: url(images/bg.png);
     background-position: center;
     height: 80vh;
+    background-size: cover;
 }
 
 section.second a {
@@ -61,12 +58,21 @@ section.second .userguide-btn{
         background-repeat: no-repeat;
     background-size: cover;
     }
+    .bg-download{
+        height: 100px;
+        background-color: whitesmoke;
+        background-image: url(images/download-bg.png);
+        background-size: cover;
+        background-position: center;
+    
+    }
 }
 
 @media (max-width:700px) {
     #web{
         width: 500px;
     }
+    
 }
 
 @media  (max-width:500px){
@@ -92,7 +98,7 @@ section.second .userguide-btn{
 @media  (max-width:400px){
     
     #web3{
-        width: 400px;
+        width: 350px;
     }
    
 }
